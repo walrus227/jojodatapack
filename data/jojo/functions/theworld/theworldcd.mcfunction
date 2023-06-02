@@ -1,0 +1,1 @@
+execute as @a if entity @s[tag=jojo.theworld] run tag @s remove jojo.theworld

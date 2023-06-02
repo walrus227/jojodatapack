@@ -8,7 +8,7 @@ execute as @a[nbt={Inventory:[{Slot:-106b,tag:{magiciansred:1b}}]}] at @s if sco
 execute as @a[nbt={Inventory:[{Slot:-106b,tag:{magiciansred:1b}}]}] at @s if score @s stand matches 4 run effect give @s fire_resistance 1 1 true
 
 # Hermit Purple
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick", tag:{hermitpurple:1b}}}] at @s if score @s fungus matches 1.. run function jojo:hermitpurple
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick", tag:{hermitpurple:1b}}}] if score @s fungus matches 1.. run function jojo:hermitpurple
 execute as @a[nbt={Inventory:[{Slot:-106b,tag:{hermitpurple:1b}}]}] at @s if score @s fungus matches 1.. run function jojo:hermitpurple
 
 # Aerosmith

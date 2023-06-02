@@ -1,0 +1,2 @@
+data merge entity @s {Silent:1b, ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b}]}
+ride @p[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick", tag:{aerosmith:1b}}},scores={fungus=1..}] mount @s

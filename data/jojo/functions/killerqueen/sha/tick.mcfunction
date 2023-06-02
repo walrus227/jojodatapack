@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,tag=sha] as @e[type=armor_stand,tag=sha] run tp @s @e[type=iron_golem,tag=sha,limit=1,sort=nearest]
+execute at @e[type=armor_stand,tag=sha] as @e[type=armor_stand,tag=sha] if entity @e[distance=..3,type=!armor_stand,type=!player,type=!iron_golem,type=!item] run function jojo:killerqueen/sha/explode
